@@ -102,12 +102,16 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
   #home {
-    row-gap: 2rem;
+    row-gap: 0rem;
   }
   #home .img {
-    width: 200px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100px;
+    margin-bottom: var(--mb-5)
   }
 }
 
